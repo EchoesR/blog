@@ -2,7 +2,7 @@ const sidebar = require('./siderbar.js')
 module.exports = {
   "title": "可乐不加糖的博客",
   "description": "可乐不加糖的博客",
-  "dest": "pages",
+  "dest": "docs",
   "base": "/blog/",
   "head": [
     [

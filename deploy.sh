@@ -8,7 +8,7 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-cd pages
+cd docs
 
 
 # git init
