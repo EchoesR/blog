@@ -9,7 +9,7 @@ module.exports = {
       "link",
       {
         "rel": "icon",
-        "href": "/favicon.ico"
+        "href": "/logo.png"
       }
     ],
     [
@@ -25,10 +25,10 @@ module.exports = {
   "themeConfig": {
     "mode": 'light',
     "subSidebar": 'auto',
-    "valineConfig": {
-      "appId": 'h6i7vXvVEK37fFFwb1DtMJ6W-gzGzoHsz',
-      "appKey": 'cYI3hypnGAI00CPuzhNfeY8Q',
-    },  
+    // "valineConfig": {
+    //   // "appId": 'h6i7vXvVEK37fFFwb1DtMJ6W-gzGzoHsz',
+    //   // "appKey": 'cYI3hypnGAI00CPuzhNfeY8Q',
+    // },  
     "nav": [
       {
         "text": "主页",
@@ -40,27 +40,6 @@ module.exports = {
         "link": "/timeline/",
         "icon": "reco-date"
       },
-      // {
-      //   "text": "Docs",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "vuepress-reco",
-      //       "link": "/docs/theme-reco/"
-      //     }
-      //   ]
-      // },
-      // {
-      //   "text": "Contact",
-      //   "icon": "reco-message",
-      //   "items": [
-      //     {
-      //       "text": "GitHub",
-      //       "link": "https://github.com/recoluan",
-      //       "icon": "reco-github"
-      //     }
-      //   ]
-      // }
     ],
     sidebar,
     "type": "blog",
@@ -86,9 +65,9 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "sanyuan",
+    "author": "Echo",
     "authorAvatar": "/avatar.jpg",
-    "record": "xxxx",
+    "record": "首页",
     "startYear": "2020"
   },
   "markdown": {
