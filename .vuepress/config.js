@@ -1,10 +1,10 @@
 const sidebar = require('./siderbar.js');
+const path = require('path')
 module.exports = {
-  "title": "三元博客",
-  "description": "三元同学的博客",
-  "dest": "public",
-  // "base": '/my_blog/',
-  "base": "/",
+  "title": "可乐不加糖的博客",
+  "description": "可乐不加糖的博客",
+  "dest": "pages",
+  "base": "/blog/",
   "head": [
     [
       "link",
@@ -51,17 +51,17 @@ module.exports = {
       //     }
       //   ]
       // },
-      {
-        "text": "Contact",
-        "icon": "reco-message",
-        "items": [
-          {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
-          }
-        ]
-      }
+      // {
+      //   "text": "Contact",
+      //   "icon": "reco-message",
+      //   "items": [
+      //     {
+      //       "text": "GitHub",
+      //       "link": "https://github.com/recoluan",
+      //       "icon": "reco-github"
+      //     }
+      //   ]
+      // }
     ],
     sidebar,
     "type": "blog",
